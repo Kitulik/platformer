@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cj4u8dpxapbkv"
-path="res://.godot/imported/hero-bg.png-f122188c4b076efb2818770094b428c8.ctex"
+uid="uid://cgu3a5borcnc3"
+path="res://.godot/imported/orange.png-aead041105b1d44d45064f119284c963.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://hero-bg.png"
-dest_files=["res://.godot/imported/hero-bg.png-f122188c4b076efb2818770094b428c8.ctex"]
+source_file="res://assets/images/tiles/orange.png"
+dest_files=["res://.godot/imported/orange.png-aead041105b1d44d45064f119284c963.ctex"]
 
 [params]
 

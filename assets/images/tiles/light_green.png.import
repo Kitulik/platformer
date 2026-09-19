@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgu3a5borcnc3"
-path="res://.godot/imported/orange.png-da4f4a6dd8e149060a376402fc6e1df5.ctex"
+uid="uid://cokq54afsf4s2"
+path="res://.godot/imported/light_green.png-519e24c25514838c1c8788f4bf75c375.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://orange.png"
-dest_files=["res://.godot/imported/orange.png-da4f4a6dd8e149060a376402fc6e1df5.ctex"]
+source_file="res://assets/images/tiles/light_green.png"
+dest_files=["res://.godot/imported/light_green.png-519e24c25514838c1c8788f4bf75c375.ctex"]
 
 [params]
 

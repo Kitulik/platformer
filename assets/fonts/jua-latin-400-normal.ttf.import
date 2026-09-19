@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://wx5vhipya0k5"
-path="res://.godot/imported/jua-latin-400-normal.ttf-5cdc9b9d25949c8e9e9c3409657cbab7.fontdata"
+path="res://.godot/imported/jua-latin-400-normal.ttf-d9b5fc0df8dcf585814451546d747b26.fontdata"
 
 [deps]
 
-source_file="res://jua-latin-400-normal.ttf"
-dest_files=["res://.godot/imported/jua-latin-400-normal.ttf-5cdc9b9d25949c8e9e9c3409657cbab7.fontdata"]
+source_file="res://assets/fonts/jua-latin-400-normal.ttf"
+dest_files=["res://.godot/imported/jua-latin-400-normal.ttf-d9b5fc0df8dcf585814451546d747b26.fontdata"]
 
 [params]
 
