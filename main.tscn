@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=4 uid="uid://cx7jena8gdcpr"]
+[gd_scene load_steps=27 format=4 uid="uid://cx7jena8gdcpr"]
 
 [ext_resource type="Texture2D" uid="uid://cj4u8dpxapbkv" path="res://assets/images/hero-bg.png" id="1_efxa6"]
 [ext_resource type="Script" uid="uid://dppjtlyy3jr74" path="res://scripts/player.gd" id="1_h2yge"]
@@ -72,6 +72,10 @@ size = Vector2(5388, 20)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ycdy4"]
 size = Vector2(170, 146)
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ycdy4"]
+radius = 59.0
+height = 142.0
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w48qg"]
 size = Vector2(113, 386)
 
@@ -139,6 +143,12 @@ shape = SubResource("RectangleShape2D_ycdy4")
 position = Vector2(773, 2149)
 texture = ExtResource("11_dg77c")
 
+[node name="StaticBody2D" type="StaticBody2D" parent="Finish"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Finish/StaticBody2D"]
+position = Vector2(771, 2157)
+shape = SubResource("CapsuleShape2D_ycdy4")
+
 [node name="UI" type="CanvasLayer" parent="."]
 layer = 10
 
@@ -165,7 +175,7 @@ offset_right = 821.0
 offset_bottom = 237.0
 theme_override_fonts/font = ExtResource("13_w48qg")
 theme_override_font_sizes/font_size = 40
-text = "Trust me 1 of those holes
+text = "Trust me 1 of these holes
 lead to the end. 
 And one not. ;)"
 horizontal_alignment = 1
